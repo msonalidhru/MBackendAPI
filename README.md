@@ -1,7 +1,7 @@
 # Backend API
 API created using Python and Django Rest Framework. This API contains a function which accepts two input parameters and generates a unique ID.
 
-URL: <ServerName>/Api/?Studyid=<value>&subjectID=<value>
+URL: ServerName/Api/?Studyid=value&subjectID=value"
 Auth Header: UserName and Password
 
 Python Client API to consume this service:
