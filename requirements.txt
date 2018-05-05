@@ -1,0 +1,5 @@
+-f /usr/share/pip-wheels
+Django==2.0.5
+djangorestframework==3.8.2
+python-dotenv==0.8.2
+pytz==2018.4
