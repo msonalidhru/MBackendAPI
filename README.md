@@ -5,9 +5,11 @@ Python Client API to consume this service:
 ------------------------------------------------
 import requests
 
-apiUrl = '<http://URL>'
-apiUName = 'username'
-apiPwd = 'pwd'
+apiUrl = "<http://URL>"
+
+apiUName = "username"
+
+apiPwd = "pwd"
 
 resp = requests.get(apiUrl, auth=(apiUName, apiPwd))
 print("---- API Status Code: -----" + str(resp.status_code) +"\n")
